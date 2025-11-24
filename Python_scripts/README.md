@@ -55,7 +55,19 @@ python {script_name}.py [arguments]
 
 Provide any required or optional arguments as shown in the `--help` output.
 
-     
+
+     ### ⚠️ Note on Trimming Script Runtime
+
+The **trimming script** may require **significant runtime** depending on input size and system resources.  
+If preferred, you can run it on a compute cluster using SLURM.
+
+An example SLURM script for running the trimmer is available here:
+
+```
+Master-s-thesis/SLURM_scripts/Trimmer.sh
+```
+
+You may adapt this script to your own cluster environment if needed.
    
 
 
