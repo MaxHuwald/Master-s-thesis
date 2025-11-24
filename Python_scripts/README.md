@@ -63,6 +63,6 @@ The **trimming script** can take a **considerable amount of time** depending on 
 If you prefer to run this computationally intensive step on a cluster, an example SLURM script is available:
 
 🔗 **SLURM script directory:**  
-https://github.com/MaxHuwald/Master-s-thesis/tree/main/SLURM_scripts
+https://github.com/MaxHuwald/Master_thesis/tree/main/SLURM_scripts
 
 You can adapt the `Trimmer.sh` file to match your specific cluster configuration.
